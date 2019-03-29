@@ -26,15 +26,7 @@ a {
     color: #d21034;
 }
 
-.header{
-    background-color: #333333;
-    width:100%;
-    color: #eee;
-    font-size: 28px;
-}
-.header h1 {
-    text-align: center;
-}
+
 
 .container {
     max-width:1024px;
