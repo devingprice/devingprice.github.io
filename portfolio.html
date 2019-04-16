@@ -39,12 +39,12 @@
 					<div class="item-links"><button>Link</button></div>
 				</div>
 				<div class="item-image">
-					<img src="assets/images/Screenshot-quiz-logo.png" class="portfolio-image" alt="Word Guess Game">
+					<img src="assets/images/Screenshot-quiz-logo.png" class="portfolio-image slide-in" alt="Word Guess Game">
 
 				</div>
 			</div>
 			<div id="holder1">
-				<div id="colored-float1"></div>
+				<div id="colored-float1" data-parallax="1" style="transform: matrix(1, 0, 0, 1, 0, -1.05425);"></div>
 			</div>
 
 		</section>
@@ -52,7 +52,7 @@
 		<section>
 			<div class="portfolio-item">
 				<div class="item-image">
-					<img src="assets/images/dunegonFight.png" class="portfolio-image" alt="Word Guess Game">
+					<img src="assets/images/dunegonFight.png" class="portfolio-image slide-in" alt="Word Guess Game">
 				</div>
 				<div class="item-info">
 					<h2 class="item-header">Dungeon Fight</h2>
@@ -62,12 +62,48 @@
 
 			</div>
 			<div id="holder2">
-				<div id="colored-float2"></div>
+				<div id="colored-float2" data-parallax="1"></div>
 			</div>
 
 		</section>
 
-		<div class="row">
+
+		<section class="mt-3">
+			<div class="portfolio-item">
+				
+				<div class="item-info">
+					<h2 class="item-header">Pirate Trivia</h2>
+					<p class="item-desc">trivia</p>
+					<div class="item-links"><button>Link</button></div>
+				</div>
+
+				<div class="item-image">
+					<img src="assets/images/pirate-trivia.png" class="portfolio-image slide-in" alt="Word Guess Game">
+				</div>
+			</div>
+
+		</section>
+
+
+		<section>
+			<div class="portfolio-item">
+				<div class="item-image">
+					<img src="assets/images/Giftastic.png" class="portfolio-image slide-in" alt="Word Guess Game">
+				</div>
+				<div class="item-info">
+					<h2 class="item-header">GifTastic</h2>
+					<p class="item-desc">Gifs</p>
+					<div class="item-links"><button>Link</button></div>
+				</div>
+
+			</div>
+			<div id="holder3">
+				<div id="colored-float3" data-parallax="1"></div>
+			</div>
+
+		</section>
+
+		<div class="row" id="old">
 			<section id="main-container" class="col-12 card py-4">
 				<div class="card-body">
 					<div class="card-title mb-4">
@@ -129,7 +165,14 @@
 	<footer class="mt-2 py-4 bg-dark text-light border-top border-info text-center"
 		style="border-top-width: 10px!important;">
 		Copyright &copy;
-		</div>
+	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/CSSPlugin.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>-->
+	<script src="app.js"></script>
 </body>
 
 </html>

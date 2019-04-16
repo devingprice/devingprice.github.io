@@ -20,6 +20,7 @@ section{
     max-width:1024px;
     width:100%;
     height:100%;
+    margin:0 auto;
 }
 .item-info, .item-image {
     width: 50%;
@@ -32,12 +33,17 @@ section{
     max-width: 100%;
     
 }
+.slide-in {
+    opacity: 0;
+    transition: none;
+    transform: translateY(50px);
+}
 
 .item-image {
     /*position: relative;*/
 }
 
-#holder1{
+#holder1 {
     position: absolute;
     bottom:0;
     left:0;
@@ -50,7 +56,7 @@ section{
     position: absolute;
     z-index: -10;
     bottom: 20%;
-    left: 50%;
+    left: 65%;
 
     background-color:navy;
     height: 400px;
@@ -58,7 +64,7 @@ section{
 
 }
 
-#holder2{
+#holder2 {
     position: absolute;
     top:0;
     left:0;
@@ -76,5 +82,31 @@ section{
     background-color:navy;
     height: 300px;
     width: 90%;
+
+}
+
+.mt-3 {
+    margin-top: 90px;
+}
+
+#holder3 {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:200%;
+    overflow-x:hidden;
+    z-index: -10;
+}
+#colored-float3 {
+    position: absolute;
+    z-index: -10;
+    top: -150px;
+    left: 5%;
+    margin:0 auto;
+
+    background-color:navy;
+    height: 500px;
+    width: 85%;
 
 }
