@@ -2,6 +2,13 @@
     --c-navy: #1c3959;
     --c-navy-light: #234163;
     --c-box: linear-gradient(-222deg,var(--c-navy-light),var(--c-navy));
+
+    --serif :'Prata', Serif;
+    --sans-serif : 'Lato', Sans-Serif;
+/*
+Font-Size: 48px;
+Font-Size: 16px;
+*/
 }
 
 html, body {
@@ -32,6 +39,19 @@ section{
     width: 50%;
     height:100%;
     padding:20px;
+}
+.item-header {
+    font-family: var(--serif);
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.item-desc {
+    font-family: var(--sans-serif);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.white-text {
+    color: #fff;
 }
 
 .portfolio-image {
@@ -123,7 +143,7 @@ section{
 }
 .btn-filled {
     background-color: var(--c-navy);
-    border-color: transparent;
+    border: solid 1px var(--c-navy);
     color: #fff;
 }
 .btn-filled:hover {
@@ -147,6 +167,17 @@ section{
     color: var(--c-navy-light);
 }
 .btn-outline:hover {
+    background: #fff;
+    border-color: white;
+    color: var(--c-navy);
+}
+
+.btn-outline-inverted {
+    border: solid 1px #fff;
+    background: var(--c-navy);
+    color: #fff;
+}
+.btn-outline-inverted:hover {
     background: #fff;
     border-color: white;
     color: var(--c-navy);
