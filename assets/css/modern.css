@@ -260,12 +260,12 @@ section{
 #main {
     z-index: -49;
     background-color: white;
-    margin-bottom: 350px;
+    margin-bottom: 200px;
 }
 .fixed_footer{
     z-index: -50;
     width: 100vw;
-    height: 350px;
+    height: 200px;
     background: var(--c-navy);
     position: fixed; left: 0; bottom: 0;
 }
@@ -456,6 +456,9 @@ section{
 
 
 
+    section {
+        width: 100%;
+    }
     .portfolio-item {
         flex-direction: column-reverse;
         align-items: center;
@@ -467,7 +470,7 @@ section{
         display:none;
     }
     .item-info, .item-image {
-        width: 100%;
+        width: 95%;
         padding: 20px;
     }
     .item-image {
@@ -483,9 +486,12 @@ section{
         position: absolute;
         z-index: 69;
         top: -3%;
-        left: 5%;
+        left: 10%;
         height: 106%;
         width: 60%;
         background-color: var(--c-navy)
+    }
+    .item-info {
+        padding: 30px;
     }
 }
