@@ -75,3 +75,11 @@ $(document).ready( function(){
         offset: '25%'
       })
 })
+
+document.querySelector('#nav-ham').addEventListener('click', function(){
+  var headerNav = this.parentElement.parentElement;
+  headerNav.classList.contains('open') ? 
+    headerNav.classList.remove('open') :
+    headerNav.classList.add('open')
+  console.log('opened')
+})
