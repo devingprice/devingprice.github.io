@@ -1,7 +1,10 @@
 :root{
     --c-navy: #1c3959;
     --c-navy-light: #234163;
-    --c-box: linear-gradient(-222deg,var(--c-navy-light),var(--c-navy));
+    --c-navy-light-sat: #2C4056;
+    --c-navy-light-bright: #2B5787;
+    --c-navy-lighter-bright: #3A77B7;
+    --c-box: linear-gradient(-222deg,var(--c-navy-light-bright),var(--c-navy));
 
     --serif :'Prata', Serif;
     --sans-serif : 'Lato', Sans-Serif;
@@ -53,25 +56,25 @@ html, body {
     position: absolute;
     height: 30%;
     width: 100px;
-    top: 20px;
+    bottom: 0;
     left: 0;
     z-index: 51;
     transition: all .5s ease 0s;
-    background-color: lightblue;
+    background-color: var(--c-navy-light-bright);
 }
 .nav-link:nth-child(1):hover~.nav-underline{
     left:0;
-    top:0;
+    bottom:0;
     height:100%;
 }
 .nav-link:nth-child(2):hover~.nav-underline{
     left: 110px;
-    top:0;
+    bottom:0;
     height:100%;
 }
 .nav-link:nth-child(3):hover~.nav-underline{
     left: 220px;
-    top:0;
+    bottom:0;
     height:100%;
 }
 #portfolio-title {
@@ -217,7 +220,7 @@ section{
     color: #fff;
 }
 .btn-filled:hover {
-    background: var(--c-navy-light);
+    background: var(--c-navy-light-bright);
 }
 .btn-filled-inverted {
     background: #fff;
