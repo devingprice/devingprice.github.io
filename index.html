@@ -1,14 +1,106 @@
 <!doctype html>
 <html lang="en-us">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>About | Your Name</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	</head>
-	<body>
-		<header id="masthead" class="mb-2 bg-white border-bottom border-color-secondary">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About | Your Name</title>
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+	<link href="https://fonts.googleapis.com/css?family=Lato|Prata" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+	<link rel="stylesheet" href="assets/css/modern-header.css">
+	<link rel="stylesheet" href="assets/css/modern-button.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/modern.css">
+	<style>
+
+	</style>
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+</head>
+
+<body>
+	<header id="masthead">
+		<div class="header-items">
+			<div class="header-logo">
+				<a href="index.html" id="logo">Devin Price</a>
+			</div>
+			<div class="header-links">
+				<nav class="header-nav">
+					<a class="nav-item nav-link" href="index.html">About</a>
+					<a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+					<a class="nav-item nav-link" href="contact.html">Contact</a>
+					<div class="nav-underline"></div>
+
+				</nav>
+			</div>
+			<div id="nav-ham">
+				<div class="btn-bar btn-menu"></div>
+				<div class="btn-bar btn-menu"></div>
+				<div class="btn-bar btn-menu"></div>
+				<div class="btn-bar btn-close"></div>
+				<div class="btn-bar btn-close"></div>
+			</div>
+
+		</div>
+		<div class="nav-expanded">
+			<div class="nav-background">
+				<div class="nav-portion">
+					<a href="index.html">About</a>
+				</div>
+				<div class="nav-portion">
+					<a href="portfolio.html">Portfolio</a>
+				</div>
+				<div class="nav-portion">
+					<a href="contact.html">Contact</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="main" class="container">
+		<div class="row">
+			<section id="main-container" class="col-12 card py-4">
+				<div class="card-body">
+					<div class="card-title mb-4">
+						<h1>About Me</h1>
+					</div>
+					<img src="assets/images/cat.jpg" class="w-25 mb-4 mr-4 img-fluid float-left auth-image"
+						alt="Your Name">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac
+						rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id
+						arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur
+						euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
+					<p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio.
+						Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
+					<p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh
+						tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+						mus.</p>
+				</div>
+			</section>
+		</div>
+	</div>
+	<footer class="fixed_footer">
+		<div class="footer-content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ducimus nemo quo totam neque quis
+				soluta nisi obcaecati aliquam saepe dicta adipisci blanditiis quaerat earum laboriosam accusamus
+				nesciunt! Saepe ex maxime enim asperiores nisi. Obcaecati nostrum nobis laudantium aliquam commodi
+				veniam magni similique ullam quis pariatur voluptatem harum id error.</p>
+		</div>
+	</footer>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/CSSPlugin.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<script src="app.js"></script>
+</body>
+
+</html>
+<!--
+	<div id="main-container" class="col-12 card">
+	      <section class="card-body main-section">
+
+
+			<header id="masthead" class="mb-2 bg-white border-bottom border-color-secondary">
 			<div class="container px-0">
 				<div class="py-0 navbar navbar-expand-sm navbar-light row">
 					<div class="px-0 col-2">
@@ -24,27 +116,8 @@
 				</div>
 			</div>
 		</header>
-		<div id="main" class="container">
-			<div class="row">
-				<section id="main-container" class="col-12 card py-4">
-					<div class="card-body">
-						<div class="card-title mb-4">
-							<h1>About Me</h1>
-						</div>
-						<img src="assets/images/cat.jpg" class="w-25 mb-4 mr-4 img-fluid float-left auth-image" alt="Your Name">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
-						<p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
-						<p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-					</div>
-				</section>
-			</div>
-		</div>
+
 		<footer class="mt-2 py-4 bg-dark text-light border-top border-info text-center" style="border-top-width: 10px!important;">
 		Copyright &copy; 
 		</div>
-	</body>
-</html>
-<!--
-	<div id="main-container" class="col-12 card">
-	      <section class="card-body main-section">
 	-->

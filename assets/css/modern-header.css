@@ -13,6 +13,9 @@
 
 body {
     overflow-x:hidden;
+    /* prevent margin collapse */
+    padding: 1px 0 0 0;
+    margin: -1px auto 0 auto;
 }
 #masthead {
     z-index: 50;
@@ -245,16 +248,16 @@ body {
     .nav-link:nth-child(1):hover~.nav-underline{
         left:0;
         bottom:0;
-        height:100%;
+        /* height:100%; */
     }
     .nav-link:nth-child(2):hover~.nav-underline{
         left: 110px;
         bottom:0;
-        height:100%;
+        /* height:100%; */
     }
     .nav-link:nth-child(3):hover~.nav-underline{
         left: 220px;
         bottom:0;
-        height:100%;
+        /* height:100%; */
     }
 }
