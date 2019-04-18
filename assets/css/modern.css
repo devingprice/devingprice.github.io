@@ -295,6 +295,7 @@ section{
     }
     .header-logo {
         flex: 1 1 100%;
+        text-align: center;
     }
     /* .header-nav {
         display: flex;
@@ -458,6 +459,10 @@ section{
 
     section {
         width: 100%;
+        margin-top: 90px;
+    }
+    section:last-child {
+        padding-bottom: 90px;
     }
     .portfolio-item {
         flex-direction: column-reverse;
