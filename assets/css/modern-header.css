@@ -10,7 +10,14 @@
     --sans-serif : 'Lato', Sans-Serif;
 
 }
-
+::selection {
+    background: var(--c-navy-light-bright); /* WebKit/Blink Browsers */
+    color: white;
+}
+::-moz-selection {
+    background: var(--c-navy-light-bright); /* Gecko Browsers */
+    color: white;
+}
 body {
     overflow-x:hidden;
     /* prevent margin collapse */
