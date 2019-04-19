@@ -246,7 +246,7 @@ body {
         position: absolute;
         height: 30%;
         width: 100px;
-        bottom: 0;
+        top: 100%;
         left: 0;
         z-index: 51;
         transition: all .5s ease 0s;
