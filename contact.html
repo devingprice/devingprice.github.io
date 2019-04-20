@@ -19,13 +19,11 @@
 			--c-navy-slate: #fbf7eb;
 		}
 
-		body,
-		#main {
-			background-color: var(--c-seashell)
+		.tan {
+			background-color: var(--c-seashell)!important;
 		}
 
-		.portfolio-header:after,
-		.item-header:after {
+		.lined:after {
 			content: ' ';
 			display: block;
 			border: 2px solid var(--c-tan);
@@ -48,7 +46,7 @@
 		-->
 </head>
 
-<body>
+<body class="tan">
 	<header id="masthead">
 		<div class="header-items">
 			<div class="header-logo">
@@ -86,17 +84,17 @@
 			</div>
 		</div>
 	</header>
-	<div id="main" class="container">
+	<div id="main" class="container tan">
 		<div id="portfolio-title">
 			<div class="portfolio-item">
-				<h2 class="portfolio-header">Portfolio</h2>
+				<h2 class="portfolio-header lined">Portfolio</h2>
 			</div>
 		</div>
 
 		<section>
 			<div class="portfolio-item">
 				<div class="item-info">
-					<h2 class="item-header">Word Guess Game</h2>
+					<h2 class="item-header lined">Word Guess Game</h2>
 					<p class="item-desc">Guess the words</p>
 					<div class="item-links">
 						<a class="btn btn-filled" href="http://devingprice.github.io/Word-Guess-Game/">Link</a>
@@ -122,7 +120,7 @@
 					<img src="assets/images/dunegonFight.png" class="portfolio-image slide-in" alt="Word Guess Game">
 				</div>
 				<div class="item-info">
-					<h2 class="item-header">Dungeon Fight</h2>
+					<h2 class="item-header lined">Dungeon Fight</h2>
 					<p class="item-desc">Fight</p>
 					<div class="item-links">
 						<a class="btn btn-filled" href="https://devingprice.github.io/unit-4-game/">Link</a>
@@ -142,7 +140,7 @@
 			<div class="portfolio-item">
 
 				<div class="item-info">
-					<h2 class="item-header">Pirate Trivia</h2>
+					<h2 class="item-header lined">Pirate Trivia</h2>
 					<p class="item-desc">trivia</p>
 					<div class="item-links">
 						<a class="btn btn-filled" href="https://devingprice.github.io/TriviaGame/">Link</a>
@@ -163,7 +161,7 @@
 					<img src="assets/images/Giftastic.png" class="portfolio-image slide-in" alt="Word Guess Game">
 				</div>
 				<div class="item-info white-text">
-					<h2 class="item-header">GifTastic</h2>
+					<h2 class="item-header lined">GifTastic</h2>
 					<p class="item-desc">Gifs</p>
 					<div class="item-links">
 						<a class="btn btn-filled-inverted" href="https://devingprice.github.io/GifTastic/">Link</a>
@@ -182,7 +180,7 @@
 			<div class="portfolio-item">
 
 				<div class="item-info">
-					<h2 class="item-header">Rock Paper Scissors</h2>
+					<h2 class="item-header lined">Rock Paper Scissors</h2>
 					<p class="item-desc">Online RPS game</p>
 					<div class="item-links">
 						<a class="btn btn-filled" href="https://devingprice.github.io/RPS-Multiplayer/">Link</a>
