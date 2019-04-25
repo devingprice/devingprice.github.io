@@ -114,7 +114,12 @@ section{
     height: 400px;
     width: 85%;
 }
-
+#colored-float4 {
+    top: 200px;
+    left: 0;
+    height: 400px;
+    width: 90%;
+}
 
 
 #main {
