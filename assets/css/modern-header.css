@@ -25,7 +25,7 @@ body {
     margin: -1px auto 0 auto;
 }
 #masthead {
-    z-index: 50;
+    z-index: 10;
     margin-bottom: 75px;
     width: 100%;
 }
@@ -33,7 +33,7 @@ body {
     display: flex;
     flex-direction: row;
     position: relative;
-    z-index: 63;
+    z-index: 15;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -58,7 +58,7 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
-    z-index: 61;
+    z-index: 14;
     cursor: pointer;
     flex: 0;
     padding: 5px;
@@ -88,7 +88,7 @@ body {
     left:     0;
     right:    0;
     bottom:   0;
-    z-index: -100;
+    z-index: -1;
 }
 .nav-background {
     position:    absolute;
@@ -161,7 +161,7 @@ body {
     transform: rotate(-45deg) translateX( 0% );
 }
 .open  .nav-expanded {
-    z-index: 61;
+    z-index: 13;
 }
 .open .nav-expanded .nav-background .nav-portion {
     transform: translateX(0%);
@@ -179,7 +179,7 @@ body {
     background 1s ease;
 }
 .open .nav-expanded {
-    z-index: 59;
+    z-index: 13;
     transition: z-index 0.01s ease-in-out .3s;
 }
 .open .nav-expanded .nav-background .nav-portion {
@@ -239,7 +239,7 @@ body {
         font-size: 20px;
         padding: 0 20px;
         position: relative;
-        z-index: 52;
+        z-index: 12;
         text-align: center;
     }
     .nav-underline {
@@ -248,7 +248,7 @@ body {
         width: 100px;
         top: 100%;
         left: 0;
-        z-index: 51;
+        z-index: 11;
         transition: all .5s ease 0s;
         background-color: var(--c-navy-light-bright);
     }
