@@ -130,13 +130,18 @@ section{
     position: fixed; left: 0; bottom: 0;
 }
 .footer-content{
-    /*width: 850px; */
+    display:flex;
     margin: auto;
     margin-bottom: 350px; /* Same height as footer */
     padding: 100px 0;
     color: white;
 }
-
+.footer-item {
+    margin: 0 auto;
+}
+.footer-item:hover {
+    opacity: .7;
+}
 
 
 
