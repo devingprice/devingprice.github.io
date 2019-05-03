@@ -120,6 +120,12 @@ section{
     height: 400px;
     width: 90%;
 }
+#colored-float5 {
+    bottom: 20%;
+    left: 65%;
+    height: 400px;
+    width: 100%;
+}
 
 
 #main {
