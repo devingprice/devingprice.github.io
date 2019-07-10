@@ -143,13 +143,14 @@ section{
 }
 .footer-content{
     display:flex;
+    justify-content: center;
     margin: auto;
     margin-bottom: 350px; /* Same height as footer */
     padding: 100px 0;
     color: white;
 }
 .footer-item {
-    margin: 0 auto;
+    margin: 0 20px;
 }
 .footer-item:hover {
     opacity: .7;
@@ -205,4 +206,21 @@ section{
     .item-info {
         padding: 30px;
     }
+}
+
+.about {
+    display:flex;
+    flex-direction: row;
+    padding: 40px;
+    max-width: 1024px;
+    margin:0 auto;
+}
+.profile-picture-cont {
+    width: 40%;
+    max-width: 400px;
+}
+.profile-picture {
+    display:block;
+    width: 100%;
+    height:auto;
 }
