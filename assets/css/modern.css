@@ -143,13 +143,14 @@ section{
 }
 .footer-content{
     display:flex;
+    justify-content: center;
     margin: auto;
     margin-bottom: 350px; /* Same height as footer */
     padding: 100px 0;
     color: white;
 }
 .footer-item {
-    margin: 0 auto;
+    margin: 0 20px;
 }
 .footer-item:hover {
     opacity: .7;
