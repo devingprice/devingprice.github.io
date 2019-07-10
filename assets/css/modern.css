@@ -207,3 +207,20 @@ section{
         padding: 30px;
     }
 }
+
+.about {
+    display:flex;
+    flex-direction: row;
+    padding: 40px;
+    max-width: 1024px;
+    margin:0 auto;
+}
+.profile-picture-cont {
+    width: 40%;
+    max-width: 400px;
+}
+.profile-picture {
+    display:block;
+    width: 100%;
+    height:auto;
+}
